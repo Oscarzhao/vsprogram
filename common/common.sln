@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "common", "common\common.vcproj", "{CD78729C-5E9A-432C-AFF0-3EE44C431C9C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "privacy", "privacy\privacy.vcproj", "{E073F062-4000-4C72-89FF-281716C77D9D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestTraits", "TestTraits\TestTraits.vcproj", "{EC3E161A-07DB-4E29-B46C-2960259F1FE7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD78729C-5E9A-432C-AFF0-3EE44C431C9C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CD78729C-5E9A-432C-AFF0-3EE44C431C9C}.Debug|Win32.Build.0 = Debug|Win32
+		{CD78729C-5E9A-432C-AFF0-3EE44C431C9C}.Release|Win32.ActiveCfg = Release|Win32
+		{CD78729C-5E9A-432C-AFF0-3EE44C431C9C}.Release|Win32.Build.0 = Release|Win32
+		{E073F062-4000-4C72-89FF-281716C77D9D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E073F062-4000-4C72-89FF-281716C77D9D}.Debug|Win32.Build.0 = Debug|Win32
+		{E073F062-4000-4C72-89FF-281716C77D9D}.Release|Win32.ActiveCfg = Release|Win32
+		{E073F062-4000-4C72-89FF-281716C77D9D}.Release|Win32.Build.0 = Release|Win32
+		{EC3E161A-07DB-4E29-B46C-2960259F1FE7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EC3E161A-07DB-4E29-B46C-2960259F1FE7}.Debug|Win32.Build.0 = Debug|Win32
+		{EC3E161A-07DB-4E29-B46C-2960259F1FE7}.Release|Win32.ActiveCfg = Release|Win32
+		{EC3E161A-07DB-4E29-B46C-2960259F1FE7}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

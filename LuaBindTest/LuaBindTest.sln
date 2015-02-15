@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "luabind_dll_test", "project\luabind_dll_test\luabind_dll_test.vcproj", "{D2F240D5-D112-49B6-8FFC-E6E388A64FB1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "any_converter", "project\any_converter\any_converter.vcproj", "{AF8BF058-178D-4DFF-836D-793DD0B41BD5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LuaCpp", "project\LuaCpp\LuaCpp.vcproj", "{D2983E52-F401-4432-85F1-2F5F417C78AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D2F240D5-D112-49B6-8FFC-E6E388A64FB1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D2F240D5-D112-49B6-8FFC-E6E388A64FB1}.Debug|Win32.Build.0 = Debug|Win32
+		{D2F240D5-D112-49B6-8FFC-E6E388A64FB1}.Release|Win32.ActiveCfg = Release|Win32
+		{D2F240D5-D112-49B6-8FFC-E6E388A64FB1}.Release|Win32.Build.0 = Release|Win32
+		{AF8BF058-178D-4DFF-836D-793DD0B41BD5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AF8BF058-178D-4DFF-836D-793DD0B41BD5}.Debug|Win32.Build.0 = Debug|Win32
+		{AF8BF058-178D-4DFF-836D-793DD0B41BD5}.Release|Win32.ActiveCfg = Release|Win32
+		{AF8BF058-178D-4DFF-836D-793DD0B41BD5}.Release|Win32.Build.0 = Release|Win32
+		{D2983E52-F401-4432-85F1-2F5F417C78AB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D2983E52-F401-4432-85F1-2F5F417C78AB}.Debug|Win32.Build.0 = Debug|Win32
+		{D2983E52-F401-4432-85F1-2F5F417C78AB}.Release|Win32.ActiveCfg = Release|Win32
+		{D2983E52-F401-4432-85F1-2F5F417C78AB}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
