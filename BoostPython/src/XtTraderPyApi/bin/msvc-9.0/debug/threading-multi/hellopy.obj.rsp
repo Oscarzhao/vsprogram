@@ -1,0 +1,7 @@
+"hellopy.cpp" -Fo"bin\msvc-9.0\debug\threading-multi\hellopy.obj"    -TP /Z7 /Od /Ob0 /W3 /GR /MDd /Zc:forScope /Zc:wchar_t /wd4675 /EHs -c 
+-DISLIB 
+-DLIB_XT_API_EXPORT 
+-DWIN32 
+"-I.." 
+"-IC:\Python27\include" 
+"-ID:\soft\boost_1_48_0_python\boost_1_48_0"

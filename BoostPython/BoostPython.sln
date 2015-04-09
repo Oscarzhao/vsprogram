@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BoostPython", "project\BoostPython\BoostPython.vcproj", "{6DDF22A2-B0AA-420E-9899-F60ED12ABE0A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "XtTraderApi", "project\XtTraderApi\XtTraderApi.vcproj", "{676D84AE-CDD9-4FAE-98EC-6F2C754CD953}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "XtTraderPyApi", "project\XtTraderPyApi\XtTraderPyApi.vcproj", "{79AAD7D5-A2D5-42AF-BD3C-C194CCFB6ECB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{676D84AE-CDD9-4FAE-98EC-6F2C754CD953} = {676D84AE-CDD9-4FAE-98EC-6F2C754CD953}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FunctionPointer", "project\FunctionPointer\FunctionPointer.vcproj", "{EFDC0941-A147-4651-B53A-83B9D9319998}"
+	ProjectSection(ProjectDependencies) = postProject
+		{676D84AE-CDD9-4FAE-98EC-6F2C754CD953} = {676D84AE-CDD9-4FAE-98EC-6F2C754CD953}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6DDF22A2-B0AA-420E-9899-F60ED12ABE0A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6DDF22A2-B0AA-420E-9899-F60ED12ABE0A}.Debug|Win32.Build.0 = Debug|Win32
+		{6DDF22A2-B0AA-420E-9899-F60ED12ABE0A}.Release|Win32.ActiveCfg = Release|Win32
+		{6DDF22A2-B0AA-420E-9899-F60ED12ABE0A}.Release|Win32.Build.0 = Release|Win32
+		{676D84AE-CDD9-4FAE-98EC-6F2C754CD953}.Debug|Win32.ActiveCfg = Debug|Win32
+		{676D84AE-CDD9-4FAE-98EC-6F2C754CD953}.Debug|Win32.Build.0 = Debug|Win32
+		{676D84AE-CDD9-4FAE-98EC-6F2C754CD953}.Release|Win32.ActiveCfg = Release|Win32
+		{676D84AE-CDD9-4FAE-98EC-6F2C754CD953}.Release|Win32.Build.0 = Release|Win32
+		{79AAD7D5-A2D5-42AF-BD3C-C194CCFB6ECB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{79AAD7D5-A2D5-42AF-BD3C-C194CCFB6ECB}.Debug|Win32.Build.0 = Debug|Win32
+		{79AAD7D5-A2D5-42AF-BD3C-C194CCFB6ECB}.Release|Win32.ActiveCfg = Release|Win32
+		{79AAD7D5-A2D5-42AF-BD3C-C194CCFB6ECB}.Release|Win32.Build.0 = Release|Win32
+		{EFDC0941-A147-4651-B53A-83B9D9319998}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EFDC0941-A147-4651-B53A-83B9D9319998}.Debug|Win32.Build.0 = Debug|Win32
+		{EFDC0941-A147-4651-B53A-83B9D9319998}.Release|Win32.ActiveCfg = Release|Win32
+		{EFDC0941-A147-4651-B53A-83B9D9319998}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
